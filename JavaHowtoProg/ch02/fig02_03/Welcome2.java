@@ -9,6 +9,12 @@ public class Welcome2 {
    } // end method main
 } // end class Welcome2
 
+
+/**
+Java Docs
+https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
+
+ */
 /**************************************************************************
  * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
  * Pearson Education, Inc. All Rights Reserved.                           *
