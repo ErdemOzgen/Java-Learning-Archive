@@ -1,7 +1,7 @@
 // Fig. 2.7: Addition.java
 // Addition program that displays the sum of two numbers.
 import java.util.Scanner; // program uses class Scanner
-
+// how to handle java scanner errors ==> https://stackoverflow.com/a/30616046/6946237
 public class Addition {
    // main method begins execution of Java application
    public static void main(String[] args) {
