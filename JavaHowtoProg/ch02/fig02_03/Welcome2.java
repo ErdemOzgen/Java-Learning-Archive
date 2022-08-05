@@ -1,6 +1,14 @@
 // Fig. 2.3: Welcome2.java
 // Printing a line of text with multiple statements.
 
+/**
+By convention, every word in a class-name identifier begins
+with an uppercase letter. For example, the class-name
+identifier DollarAmount starts its first word, Dollar, with
+an uppercase D and its second word, Amount, with an
+uppercase A. This naming convention is known as camel case,
+because the uppercase letters stand out like a camel’s humps.
+ */
 public class Welcome2 {
    // main method begins execution of Java application
    public static void main(String[] args) {
