@@ -8,6 +8,17 @@ public class Welcome1 {
    } // end method main
 } // end class Welcome1
 
+/**
+Some organizations require that every program begin with a
+comment that states the purpose of the program and the
+author, date and time when the program was last modified.
+ 
+ Use white space to enhance program readability.
+
+ 
+ 
+ */
+
 
 /**************************************************************************
  * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
