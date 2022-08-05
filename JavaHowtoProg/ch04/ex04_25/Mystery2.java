@@ -4,6 +4,7 @@ public class Mystery2 {
       int count = 1;
 
       while (count <= 10) {
+         // https://www.baeldung.com/java-ternary-operator
          System.out.println(count % 2 == 1 ? "****" : "++++++++");
          ++count;
       } 
