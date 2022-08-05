@@ -18,3 +18,4 @@
 * [Java Code Formats](https://github.com/google/google-java-format)
 * [How to Navigate In Docs](https://youtu.be/ULEOb8wLa_k)
 * [Java Annotations](https://docs.oracle.com/javase/tutorial/java/annotations/)
+* [Java Error vs Exception](https://www.geeksforgeeks.org/errors-v-s-exceptions-in-java/)
