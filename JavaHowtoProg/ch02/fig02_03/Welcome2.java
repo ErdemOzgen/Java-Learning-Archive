@@ -14,6 +14,11 @@ public class Welcome2 {
 Java Docs
 https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 
+A compilation error occurs if a public class’s filename is not
+exactly the same name as the class (in terms of both spelling
+and capitalization) followed by the .java extension
+
+
  */
 /**************************************************************************
  * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
