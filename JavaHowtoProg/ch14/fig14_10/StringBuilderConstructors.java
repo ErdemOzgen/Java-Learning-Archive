@@ -1,6 +1,11 @@
 // Fig. 14.10: StringBuilderConstructors.java
 // StringBuilder constructors.
 
+/**
+ * StringBuilders are not thread safe. If multiple threads require access to the same
+   dynamic string information, use class StringBuffer in your code. Classes StringBuilder
+   and StringBuffer provide identical capabilities, but class StringBuffer is thread saf
+ */
 public class StringBuilderConstructors {
    public static void main(String[] args) {
       StringBuilder buffer1 = new StringBuilder();
