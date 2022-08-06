@@ -17,6 +17,11 @@ public class StringBuilderCapLen {
    } 
 } 
 
+/**
+ * Dynamically increasing the capacity of a StringBuilder can take a relatively long time.
+Executing a large number of these operations can degrade the performance of an application. If a StringBuilder is going to increase greatly in size, possibly multiple times, setting
+its capacity high at the beginning will increase performance.
+ */
 
 /**************************************************************************
  * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
