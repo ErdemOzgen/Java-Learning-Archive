@@ -12,6 +12,7 @@ public class StringCompare {
          "s1 = %s\ns2 = %s\ns3 = %s\ns4 = %s\n\n", s1, s2, s3, s4);
    
       // test for equality
+      // https://stackoverflow.com/a/513839/6946237
       if (s1.equals("hello")) { // true
          System.out.println("s1 equals \"hello\"");
       }
