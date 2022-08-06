@@ -13,6 +13,13 @@ public class StringCompare {
    
       // test for equality
       // https://stackoverflow.com/a/513839/6946237
+      /**
+       * Comparing references with == can lead to logic errors, because == compares the references
+         to determine whether they refer to the same object, not whether two objects have the
+         same contents. When two separate objects that contain the same values are compared
+         with ==, the result will be false. When comparing objects to determine whether they have
+         the same contents, use method equals
+       */
       if (s1.equals("hello")) { // true
          System.out.println("s1 equals \"hello\"");
       }
