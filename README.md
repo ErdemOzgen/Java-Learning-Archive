@@ -5,13 +5,14 @@
 # List of Materials
 
 * [Java How to Program 11 edition](./JavaHowtoProg/README.md)
-
+* [Data Structures and Algorithms in Java](./DataStrucAndAlg)
 
 > You can follow with same sequence
 
 ## Books
 
 ![javaHowtoProgram](./img/java1.jpeg)
+![Data Structures and Algorithms in Java](./DataStrucAndAlg/img/cover.jpg)
 
 ## Good Resource Links
 
