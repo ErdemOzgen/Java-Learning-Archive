@@ -10,7 +10,8 @@
 > You can follow with same sequence
 
 ## Books
-
+<img src="./img/java1.jpeg" width="200" height="200"/>
+<img src="./DataStrucAndAlg/img/cover.jpg" width="200" height="200"/>
 ![javaHowtoProgram](./img/java1.jpeg)
 ![Data Structures and Algorithms in Java](./DataStrucAndAlg/img/cover.jpg)
 
