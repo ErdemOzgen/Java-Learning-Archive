@@ -1,22 +1,16 @@
-// Fig. 3.5: Account.java
-// Account class with a constructor that initializes the name.
+// Fig. 3.6: AccountTest.java
+// Using the Account constructor to initialize the name instance
+// variable at the time each Account object is created.
 
-public class Account {
-   private String name; // instance variable
+public class AccountTest2 {
+   public static void main(String[] args) { 
+      // create two Account objects
+      Account2 account1 = new Account2("Jane Green");
+      Account2 account2 = new Account2("John Blue");
 
-   // constructor initializes name with parameter name
-   public Account(String name) { // constructor name is class name
-      this.name = name;
-   }                                            
-
-   // method to set the name
-   public void setName(String name) {
-      this.name = name; 
-   } 
-
-   // method to retrieve the name
-   public String getName() {
-      return name; 
+      // display initial value of name for each Account
+      System.out.printf("account1 name is: %s%n", account1.getName());
+      System.out.printf("account2 name is: %s%n", account2.getName());
    } 
 }
 

@@ -1,13 +1,13 @@
-// Fig. 3.8: Account.java
+// Fig. 3.8: Account2.java
 // Account class with a double instance variable balance and a constructor
 // and deposit method that perform validation.
 
-public class Account {
+public class Account3 {
    private String name; // instance variable 
    private double balance; // instance variable 
 
    // Account constructor that receives two parameters  
-   public Account(String name, double balance) {
+   public Account3(String name, double balance) {
       this.name = name; // assign name to instance variable name
 
       // validate that the balance is greater than 0.0; if it's not,
