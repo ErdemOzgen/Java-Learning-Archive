@@ -602,5 +602,5 @@
 * 15.4 External-Memory Sorting 705
 * 
 * 15.4.1 Multiway Merging 706
-* 
+*
 * 15.5 Exercises 707
