@@ -1,6 +1,6 @@
 # Java-Learning-Archive
 
-**This repository contains different materials for learning and improving Cpp skills.**
+**This repository contains different materials for learning and improving java skills.**
 
 # List of Materials
 
