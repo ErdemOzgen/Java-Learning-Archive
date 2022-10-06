@@ -1,606 +1,269 @@
-# Data Structures and Algorithms in Java, 6th Edition
+# <a href="https://www.amazon.com/Data-Structures-Algorithms-Java-6th-ebook/dp/B00JDRQF8C">Data Structures and Algorithms in Java, 6th Edition</a>
+Code extracts and notes from the book by Michael T. Goodrich, Roberto Tamassia and Michael H. Goldwasser
 
+<img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/cover.jpg" />
 
-## TABLE OF CONTENTS
+## Book Description
+ISBN: 978-1-118-80857-3<br />
+Aug 2014<br />
+<i>The design and analysis of efficient data structures has long been recognized as a key component of the Computer Science curriculum. Goodrich and Tomassia's approach to this classic topic is based on the object-oriented paradigm as the framework of choice for the design of data structures. For each ADT presented in the text, the authors provide an associated Java interface. Concrete data structures realizing the ADTs are provided as Java classes implementing the interfaces. The Java code implementing fundamental data structures in this book is organized in a single Java package, net.datastructures. This package forms a coherent library of data structures and algorithms in Java specifically designed for educational purposes in a way that is complimentary with the Java Collections Framework.</i>
 
-* 1.1 Getting Started 2
-* 
-* 1.1.1 Base Types 4
-* 
-* 1.2 Classes and Objects 5
-* 
-* 1.2.1 Creating and Using Objects 6
-* 
-* 1.2.2 Defining a Class 9
-* 
-* 1.3 Strings, Wrappers, Arrays, and Enum Types 17
-* 
-* 1.4 Expressions 23
-* 
-* 1.4.1 Literals 23
-* 
-* 1.4.2 Operators 24
-* 
-* 1.4.3 Type Conversions 28
-* 
-* 1.5 Control Flow 30
-* 
-* 1.5.1 The If and Switch Statements 30
-* 
-* 1.5.2 Loops 33
-* 
-* 1.5.3 Explicit Control-Flow Statements 37
-* 
-* 1.6 Simple Input and Output 38
-* 
-* 1.7 An Example Program 41
-* 
-* 1.8 Packages and Imports 44
-* 
-* 1.9 Software Development 46
-* 
-* 1.9.1 Design 46
-* 
-* 1.9.2 Pseudocode 48
-* 
-* 1.9.3 Coding 49
-* 
-* 1.9.4 Documentation and Style 50
-* 
-* 1.9.5 Testing and Debugging 53
-* 
-* 1.10 Exercises 55
-* 
-* 2 Object-Oriented Design 59
-* 
-* 2.1 Goals, Principles, and Patterns 60
-* 
-* 2.1.1 Object-Oriented Design Goals 60
-* 
-* 2.1.2 Object-Oriented Design Principles 61
-* 
-* 2.1.3 Design Patterns 63
-* 
-* 2.2 Inheritance 64
-* 
-* 2.2.1 Extending the CreditCard Class 65
-* 
-* 2.2.2 Polymorphism and Dynamic Dispatch 68
-* 
-* 2.2.3 Inheritance Hierarchies 69
-* 
-* 2.3 Interfaces and Abstract Classes 76
-* 
-* 2.3.1 Interfaces in Java 76
-* 
-* 2.3.2 Multiple Inheritance for Interfaces 79
-* 
-* 2.3.3 Abstract Classes 80
-* 
-* 2.4 Exceptions 82
-* 
-* 2.4.1 Catching Exceptions 82
-* 
-* 2.4.2 Throwing Exceptions 85
-* 
-* 2.4.3 Java’s Exception Hierarchy 86
-* 
-* 2.5 Casting and Generics 88
-* 
-* 2.5.1 Casting 88
-* 
-* 2.5.2 Generics 91
-* 
-* 2.6 Nested Classes 96
-* 
-* 2.7 Exercises 97
-* 
-* 3 Fundamental Data Structures 103
-* 
-* 3.1 Using Arrays 104
-* 
-* 3.1.1 Storing Game Entries in an Array 104
-* 
-* 3.1.2 Sorting an Array 110
-* 
-* 3.1.3 java.util Methods for Arrays and Random Numbers 112
-* 
-* 3.1.4 Simple Cryptography with Character Arrays 115
-* 
-* 3.1.5 Two-Dimensional Arrays and Positional Games 118
-* 
-* 3.2 Singly Linked Lists 122
-* 
-* 3.2.1 Implementing a Singly Linked List Class 126
-* 
-* 3.3 Circularly Linked Lists 128
-* 
-* 3.3.1 Round-Robin Scheduling 128
-* 
-* 3.3.2 Designing and Implementing a Circularly Linked List 129
-* 
-* 3.4 Doubly Linked Lists 132
-* 
-* 3.4.1 Implementing a Doubly Linked List Class 135
-* 
-* 3.5 Equivalence Testing 138
-* 
-* 3.5.1 Equivalence Testing with Arrays 139
-* 
-* 3.5.2 Equivalence Testing with Linked Lists 140
-* 
-* 3.6 Cloning Data Structures 141
-* 
-* 3.6.1 Cloning Arrays 142
-* 
-* 3.6.2 Cloning Linked Lists 144
-* 
-* 3.7 Exercises 145
-* 
-* 4 Algorithm Analysis 149
-* 
-* 4.1 Experimental Studies 151
-* 
-* 4.1.1 Moving Beyond Experimental Analysis 154
-* 
-* 4.2 The Seven Functions Used in This Book 156
-* 
-* 4.2.1 Comparing Growth Rates 163
-* 
-* 4.3 Asymptotic Analysis 164
-* 
-* 4.3.1 The “Big-Oh” Notation 164
-* 
-* 4.3.2 Comparative Analysis 168
-* 
-* 4.3.3 Examples of Algorithm Analysis 170
-* 
-* 4.4 Simple Justification Techniques 178
-* 
-* 4.4.1 By Example 178
-* 
-* 4.4.2 The “Contra” Attack 178
-* 
-* 4.4.3 Induction and Loop Invariants 179
-* 
-* 4.5 Exercises 182
-* 
-* 5 Recursion 189
-* 
-* 5.1 Illustrative Examples 191
-* 
-* 5.1.1 The Factorial Function 191
-* 
-* 5.1.2 Drawing an English Ruler 193
-* 
-* 5.1.3 Binary Search 196
-* 
-* 5.1.4 File Systems 198
-* 
-* 5.2 Analyzing Recursive Algorithms 202
-* 
-* 5.3 Further Examples of Recursion 206
-* 
-* 5.3.1 Linear Recursion 206
-* 
-* 5.3.2 Binary Recursion 211
-* 
-* 5.3.3 Multiple Recursion 212
-* 
-* 5.4 Designing Recursive Algorithms 214
-* 
-* 5.5 Recursion Run Amok 215
-* 
-* 5.5.1 Maximum Recursive Depth in Java 218
-* 
-* 5.6 Eliminating Tail Recursion 219
-* 
-* 5.7 Exercises 221
-* 
-* 6 Stacks, Queues, and Deques 225
-* 
-* 6.1 Stacks 226
-* 
-* 6.1.1 The Stack Abstract Data Type 227
-* 
-* 6.1.2 A Simple Array-Based Stack Implementation 230
-* 
-* 6.1.3 Implementing a Stack with a Singly Linked List 233
-* 
-* 6.1.4 Reversing an Array Using a Stack 234
-* 
-* 6.1.5 Matching Parentheses and HTML Tags 235
-* 
-* 6.2 Queues 238
-* 
-* 6.2.1 The Queue Abstract Data Type 239
-* 
-* 6.2.2 Array-Based Queue Implementation 241
-* 
-* 6.2.3 Implementing a Queue with a Singly Linked List 245
-* 
-* 6.2.4 A Circular Queue 246
-* 
-* 6.3 Double-Ended Queues 248
-* 
-* 6.3.1 The Deque Abstract Data Type 248
-* 
-* 6.3.2 Implementing a Deque 250
-* 
-* 6.3.3 Deques in the Java Collections Framework 251
-* 
-* 6.4 Exercises 252
-* 
-* 7 List and Iterator ADTs 257
-* 
-* 7.1 The List ADT 258
-* 
-* 7.2 Array Lists 260
-* 
-* 7.2.1 Dynamic Arrays 263
-* 
-* 7.2.2 Implementing a Dynamic Array 264
-* 
-* 7.2.3 Amortized Analysis of Dynamic Arrays 265
-* 
-* 7.2.4 Java’s StringBuilder class 269
-* 
-* 7.3 Positional Lists 270
-* 
-* 7.3.1 Positions 272
-* 
-* 7.3.2 The Positional List Abstract Data Type 272
-* 
-* 7.3.3 Doubly Linked List Implementation 276
-* 
-* 7.4 Iterators 282
-* 
-* 7.4.1 The Iterable Interface and Java’s For-Each Loop 283
-* 
-* 7.4.2 Implementing Iterators 284
-* 
-* 7.5 The Java Collections Framework 288
-* 
-* 7.5.1 List Iterators in Java 289
-* 
-* 7.5.2 Comparison to Our Positional List ADT 290
-* 
-* 7.5.3 List-Based Algorithms in the Java Collections Framework 291
-* 
-* 7.6 Sorting a Positional List 293
-* 
-* 7.7 Case Study: Maintaining Access Frequencies 294
-* 
-* 7.7.1 Using a Sorted List 294
-* 
-* 7.7.2 Using a List with the Move-to-Front Heuristic 297
-* 
-* 7.8 Exercises 300
-* 
-* 8 Trees 307
-* 
-* 8.1 General Trees308
-* 
-* 8.1.1 Tree Definitions and Properties 309
-* 
-* 8.1.2 The Tree Abstract Data Type 312
-* 
-* 8.1.3 Computing Depth and Height 314
-* 
-* 8.2 Binary Trees 317
-* 
-* 8.2.1 The Binary Tree Abstract Data Type 319
-* 
-* 8.2.2 Properties of Binary Trees 321
-* 
-* 8.3 Implementing Trees 323
-* 
-* 8.3.1 Linked Structure for Binary Trees 323
-* 
-* 8.3.2 Array-Based Representation of a Binary Tree 331
-* 
-* 8.3.3 Linked Structure for General Trees 333
-* 
-* 8.4 Tree Traversal Algorithms 334
-* 
-* 8.4.1 Preorder and Postorder Traversals of General Trees 334
-* 
-* 8.4.2 Breadth-First Tree Traversal 336
-* 
-* 8.4.3 Inorder Traversal of a Binary Tree 337
-* 
-* 8.4.4 Implementing Tree Traversals in Java 339
-* 
-* 8.4.5 Applications of Tree Traversals 343
-* 
-* 8.4.6 Euler Tours 348
-* 
-* 8.5 Exercises 350
-* 
-* 9 Priority Queues 359
-* 
-* 9.1 The Priority Queue Abstract Data Type 360
-* 
-* 9.1.1 Priorities 360
-* 
-* 9.1.2 The Priority Queue ADT 361
-* 
-* 9.2 Implementing a Priority Queue 362
-* 
-* 9.2.1 The Entry Composite 362
-* 
-* 9.2.2 Comparing Keys with Total Orders 363
-* 
-* 9.2.3 The AbstractPriorityQueue Base Class 364
-* 
-* 9.2.4 Implementing a Priority Queue with an Unsorted List 366
-* 
-* 9.2.5 Implementing a Priority Queue with a Sorted List 368
-* 
-* 9.3 Heaps 370
-* 
-* 9.3.1 The Heap Data Structure 370
-* 
-* 9.3.2 Implementing a Priority Queue with a Heap 372
-* 
-* 9.3.3 Analysis of a Heap-Based Priority Queue 379
-* 
-* 9.3.4 Bottom-Up Heap Construction ⋆ 380
-* 
-* 9.3.5 Using the java.util.PriorityQueue Class 384
-* 
-* 9.4 Sorting with a Priority Queue 385
-* 
-* 9.4.1 Selection-Sort and Insertion-Sort 386
-* 
-* 9.4.2 Heap-Sort 388
-* 
-* 9.5 Adaptable Priority Queues 390
-* 
-* 9.5.1 Location-Aware Entries 391
-* 
-* 9.5.2 Implementing an Adaptable Priority Queue 392
-* 
-* 9.6 Exercises 395
-* 
-* 10 Maps, Hash Tables, and Skip Lists 401
-* 
-* 10.1 Maps 402
-* 
-* 10.1.1 The Map ADT 403
-* 
-* 10.1.2 Application: Counting Word Frequencies 405
-* 
-* 10.1.3 An AbstractMap Base Class 406
-* 
-* 10.1.4 A Simple Unsorted Map Implementation 408
-* 
-* 10.2 Hash Tables 410
-* 
-* 10.2.1 Hash Functions 411
-* 
-* 10.2.2 Collision-Handling Schemes 417
-* 
-* 10.2.3 Load Factors, Rehashing, and Efficiency 420
-* 
-* 10.2.4 Java Hash Table Implementation 422
-* 
-* 10.3 Sorted Maps 428
-* 
-* 10.3.1 Sorted Search Tables 429
-* 
-* 10.3.2 Two Applications of Sorted Maps 433
-* 
-* 10.4 Skip Lists 436
-* 
-* 10.4.1 Search and Update Operations in a Skip List 438
-* 
-* 10.4.2 Probabilistic Analysis of Skip Lists ⋆ 442
-* 
-* 10.5 Sets, Multisets, and Multimaps 445
-* 
-* 10.5.1 The Set ADT 445
-* 
-* 10.5.2 The Multiset ADT 447
-* 
-* 10.5.3 The Multimap ADT 448
-* 
-* 10.6 Exercises 451
-* 
-* 11 Search Trees 459
-* 
-* 11.1 Binary Search Trees 460
-* 
-* 11.1.1 Searching Within a Binary Search Tree 461
-* 
-* 11.1.2 Insertions and Deletions 463
-* 
-* 11.1.3 Java Implementation 466
-* 
-* 11.1.4 Performance of a Binary Search Tree 470
-* 
-* 11.2 Balanced Search Trees 472
-* 
-* 11.2.1 Java Framework for Balancing Search Trees 475
-* 
-* 11.3 AVL Trees 479
-* 
-* 11.3.1 Update Operations 481
-* 
-* 11.3.2 Java Implementation 486
-* 
-* 11.4 Splay Trees 488
-* 
-* 11.4.1 Splaying 488
-* 
-* 11.4.2 When to Splay 492
-* 
-* 11.4.3 Java Implementation 494
-* 
-* 11.4.4 Amortized Analysis of Splaying ⋆ 495
-* 
-* 11.5 (2,4) Trees 500
-* 
-* 11.5.1 Multiway Search Trees 500
-* 
-* 11.5.2 (2,4)-Tree Operations 503
-* 
-* 11.6 Red-Black Trees 510
-* 
-* 11.6.1 Red-Black Tree Operations 512
-* 
-* 11.6.2 Java Implementation 522
-* 
-* 11.7 Exercises 525
-* 
-* 12 Sorting and Selection 531
-* 
-* 12.1 Merge-Sort 532
-* 
-* 12.1.1 Divide-and-Conquer 532
-* 
-* 12.1.2 Array-Based Implementation of Merge-Sort 537
-* 
-* 12.1.3 The Running Time of Merge-Sort 538
-* 
-* 12.1.4 Merge-Sort and Recurrence Equations ⋆ 540
-* 
-* 12.1.5 Alternative Implementations of Merge-Sort 541
-* 
-* 12.2 Quick-Sort 544
-* 
-* 12.2.1 Randomized Quick-Sort 551
-* 
-* 12.2.2 Additional Optimizations for Quick-Sort 553
-* 
-* 12.3 Studying Sorting through an Algorithmic Lens 556
-* 
-* 12.3.1 Lower Bound for Sorting 556
-* 
-* 12.3.2 Linear-Time Sorting: Bucket-Sort and Radix-Sort 558
-* 
-* 12.4 Comparing Sorting Algorithms 561
-* 
-* 12.5 Selection 563
-* 
-* 12.5.1 Prune-and-Search 563
-* 
-* 12.5.2 Randomized Quick-Select 564
-* 
-* 12.5.3 Analyzing Randomized Quick-Select 565
-* 
-* 12.6 Exercises 566
-* 
-* 13 Text Processing 573
-* 
-* 13.1 Abundance of Digitized Text 574
-* 
-* 13.1.1 Notations for Character Strings 575
-* 
-* 13.2 Pattern-Matching Algorithms 576
-* 
-* 13.2.1 Brute Force 576
-* 
-* 13.2.2 The Boyer-Moore Algorithm 578
-* 
-* 13.2.3 The Knuth-Morris-Pratt Algorithm 582
-* 
-* 13.3 Tries 586
-* 
-* 13.3.1 Standard Tries 586
-* 
-* 13.3.2 Compressed Tries 590
-* 
-* 13.3.3 Suffix Tries 592
-* 
-* 13.3.4 Search Engine Indexing 594
-* 
-* 13.4 Text Compression and the Greedy Method 595
-* 
-* 13.4.1 The Huffman Coding Algorithm 596
-* 
-* 13.4.2 The Greedy Method 597
-* 
-* 13.5 Dynamic Programming 598
-* 
-* 13.5.1 Matrix Chain-Product 598
-* 
-* 13.5.2 DNA and Text Sequence Alignment 601
-* 
-* 13.6 Exercises 605
-* 
-* 14 Graph Algorithms 611
-* 
-* 14.1 Graphs 612
-* 
-* 14.1.1 The Graph ADT 618
-* 
-* 14.2 Data Structures for Graphs 619
-* 
-* 14.2.1 Edge List Structure 620
-* 
-* 14.2.2 Adjacency List Structure 622
-* 
-* 14.2.3 Adjacency Map Structure 624
-* 
-* 14.2.4 Adjacency Matrix Structure 625
-* 
-* 14.2.5 Java Implementation 626
-* 
-* 14.3 Graph Traversals 630
-* 
-* 14.3.1 Depth-First Search 631
-* 
-* 14.3.2 DFS Implementation and Extensions 636
-* 
-* 14.3.3 Breadth-First Search 640
-* 
-* 14.4 Transitive Closure 643
-* 
-* 14.5 Directed Acyclic Graphs 647
-* 
-* 14.5.1 Topological Ordering 647
-* 
-* 14.6 Shortest Paths 651
-* 
-* 14.6.1 Weighted Graphs 651
-* 
-* 14.6.2 Dijkstra’s Algorithm 653
-* 
-* 14.7 Minimum Spanning Trees 662
-* 
-* 14.7.1 Prim-Jarn´ýk Algorithm 664
-* 
-* 14.7.2 Kruskal’s Algorithm 667
-* 
-* 14.7.3 Disjoint Partitions and Union-Find Structures 672
-* 
-* 14.8 Exercises 677
-* 
-* 15 Memory Management and B-Trees 687
-* 
-* 15.1 Memory Management 688
-* 
-* 15.1.1 Stacks in the Java Virtual Machine 688
-* 
-* 15.1.2 Allocating Space in the Memory Heap 691
-* 
-* 15.1.3 Garbage Collection 693
-* 
-* 15.2 Memory Hierarchies and Caching 695
-* 
-* 15.2.1 Memory Systems 695
-* 
-* 15.2.2 Caching Strategies 696
-* 
-* 15.3 External Searching and B-Trees 701
-* 
-* 15.3.1 (a,b) Trees 702
-* 
-* 15.3.2 B-Trees 704
-* 
-* 15.4 External-Memory Sorting 705
-* 
-* 15.4.1 Multiway Merging 706
-*
-* 15.5 Exercises 707
+## Book Review
+`TODO // Review this book once complete`
+
+## Chapters
+Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) notes not required.
+<table>
+<thead>
+    <tr>
+        <th>Chapter</th>
+        <th>Title</th>
+        <th>Code extracts / notes</th>
+    </tr>
+</thead>
+<tbody>
+    <tr><td valign="top">03</td><td valign="top">Fundamental Data Structures</td>
+        <td>
+        Using Arrays:<br /><br />
+            <ul>
+                <li>Storing game entries in an array: <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/GameEntry.java">Game Entry</a> and <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/Scoreboard.java">Scoreboard</a></li>
+                <li>Sorting an array using <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-java.lang.Object:A-"><code>Arrays.sort</code></a>: <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/ArraysSort.java">Arrays Sort</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Insertion_sort"><strong>Insertion sort algorithm</strong></a>:
+                    <ul>
+                        <li><a href="http://bigocheatsheet.com/">Complexity:</a> O(n^2)</li>
+                        <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/InsertionSort.java">Insertion Sort example</a></li>
+                    </ul>
+                    <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/03_insertionSort.png" height="500" />
+                </li>
+                <li>Simple cryptography with <code>char</code> arrays: <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/CaesarCipher.java">Caesar Cipher</a> - <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Wikipedia explanation of the Caesar cipher</a></li>
+                <li>Two dimensional arrays: <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/TicTacToe.java">Tic Tac Toe</a></li>
+            </ul>
+        Linked Lists:<br /><br />
+            <ul>
+                <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/SinglyLinkedList.java">Singly Linked List</a> including example of implementing the <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Cloneable.html"><code>Cloneable</code></a> interface and a clone method</li>
+                <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/CircularlyLinkedList.java">Circularly Linked List</a></li>
+                <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_03/DoublyLinkedList.java">Doubly Linked List</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr><td valign="top">04</td><td valign="top">Algorithm Analysis</td>
+    <td>
+        Functions:<br />
+        <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/04_functions.png" /><br />
+        <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/04_comparingGrowthRates.png" /><br />
+        Seven functions commonly used in the analysis of algorithms. Note, <i>logn = log<sub>2</sub>n</i>. Also, we denote with a <i>a</i> constant greater than 1.<br /><br />
+        <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/04_functionRunningTimes.png" /><br />
+        Example growth rates to show order of asymptotically betters algorithms.<br /><br />
+        <ul>
+            <li>A <a href="https://en.wikipedia.org/wiki/Constant_function"><strong>constant function</strong></a> is a function whose (output) value is the same for every input value.<br />
+            <i>f(n) = c</i><br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_04/Constant.java">Example code</a></li>
+            <li>The <a href="https://en.wikipedia.org/wiki/Logarithm"><strong>logarithm function</strong></a> is the inverse function to exponentiation (power).<br />
+            <i>x = log<sub>b</sub>n</i> if and only if <i>b<sup>x</sup> = n</i>.<br />
+            The value <i>b</i> is known as the base of the logarithm. The most common base for the logarithm function in computer science is 2 as computers store integers in binary. In fact, this base is so common that we will typically omit it from the notation when it is 2:<br />
+            <i>log<sub>n</sub> = log<sub>2</sub>n</i><br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_04/Logarithmic.java">Example code</a></li>
+            <li>The <a href="https://en.wikipedia.org/wiki/Linear_function"><strong>linear function</strong></a>:<br />
+            <i>f(n) = n</i><br />
+            Given an input value <i>n</i>, the linear function <i>f</i> assigns the value <i>n</i> itself. <br />
+            This function arises in algorithm analysis any time we have to do a single basic operation for each of <i>n</i> elements. For example, comparing a number <i>x</i> to each element of an array of size <i>n</i> will require <i>n</i> comparisons. The linear function also represents the best running time we can hope to achieve for any algorithm that processes each of <i>n</i> objects that are not already in the computer’s memory, because reading in the <i>n</i> objects already requires <i>n</i> operations.<br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_04/Linear.java">Example code</a></li>
+            <li>The <strong>N-Log-N function</strong><br />
+            <i>f(n) = nlogn</i><br />
+            Assigns to an input <i>n</i> the value of <i>n</i> times the logarithm base-two of <i>n</i>. This function grows a little more rapidly than the linear function and a lot less rapidly than the quadratic function; therefore, we would greatly prefer an algorithm with a running time that is proportional to <i>nlogn</i>, than one with quadratic running time.<br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_04/NLogN.java">Example code</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Quadratic_function"><strong>Quadratic function</strong></a><br />
+            <i>f(n) = n<sup>2</sup></i><br />
+            Given an input value <i>n</i>, the function <i>f</i> assigns the product of <i>n</i> with itself (i.e., n squared).<br />
+            There are many algorithms that have nested loops, where the inner loop performs a linear number of operations and the outer loop is performed a linear number of times. Thus, in such cases, the algorithm performs <i>n</i> * <i>n</i> = <i>n<sup>2</sup></i> operations
+            </li>
+            <li>The <a href="https://en.wikipedia.org/wiki/Cubic_function"><strong>cubic function</strong></a><br />
+            <i>f(n) = n<sup>3</sup></i><br />
+            Assigns an input value <i>n</i> the product of <i>n</i> with itself three times. The cubic function appears less frequently in the context of algorithm analysis than the constant, linear, and quadratic functions, but it does appear from time to time.
+            </li>
+            <li>The linear, quadratic and cubic functions can each be viewed as being part of a larger class of functions, the <a href="https://en.wikipedia.org/wiki/Polynomial"><strong>polynomials</strong></a>.  A polynomial function has the form:<br />
+            <i>f(n) = a<sub>0</sub> + a<sub>1</sub>n + a<sub>2</sub>n<sup>2</sup> + a<sub>3</sub>n<sup>3</sup> +···+ a<sub>d</sub>n<sup>d</sup></i><br />
+            where <i>a<sub>0</sub>,a<sub>1</sub>,...,a<sub>d</sub></i> are constants, called the <a href="https://en.wikipedia.org/wiki/Coefficient"><strong>coefficients</strong></a> of the polynomial, and <i>a<sub>d</sub> ≠ 0</i>. Integer <i>d</i>, which indicates the highest power in the polynomial, is called the <a href="https://en.wikipedia.org/wiki/Degree_of_a_polynomial"><strong>degree</strong></a> of the polynomial.<br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_04/Polynomial.java">Example code</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Summation"><strong>Summations</strong></a> (denoted with an enlarged capital Greek sigma symbol) gives us a shorthand way of expressing sums of increasing terms that have a regular structure<br />
+            Examples: For a sequence of consecutive integers:<br />
+            <i>b∑i=a f(i) = f(a) + f(a+1) + f(a+2) +···+ f(b)</i><br />
+            If the the integers in question were 1 to 100, using a summation, we can rewrite the formula:<br />
+            <i>100∑i=1 i</i><br />
+            The value of this summation is 5050. It can be found without performing 99 additions, since it can be shown (for instance by mathematical induction) that<br />
+            <i>n∑i=1 i = n(n+1) / 2</i>
+            </li>
+            <li>The <a href="https://en.wikipedia.org/wiki/Exponential_function"><strong>Exponential function</strong></a><br />
+            <i>f(n) = b<sup>n</sup></i><br />
+            where <i>b</i> is a positive constant, called the base, and the argument <i>n</i> is the exponent. That is, function <i>f(n)</i> assigns to the input argument <i>n</i> the value obtained by multiplying the base <i>b</i> by itself <i>n</i> times.<br /> 
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_04/Exponential.java">Example code</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Geometric_series"><strong>Geometric series</strong></a> is a series with a constant ratio between successive terms. E.g.: <i>1/2 + 1/4 + 1/8 + 1/16 + ...</i> is geometric, because each successive term can be obtained by multiplying the previous term by 1/2.</li>
+        </ul>
+        <a href="https://en.wikipedia.org/wiki/Asymptotic_analysis">Asymptotic Analysis</a>:<br /><br />
+        <ul>
+            <li>
+                <strong>primitive operations</strong> such as the following:
+                <ul>
+                    <li>Assigning a value to a variable</li>
+                    <li>Following an object reference</li>
+                    <li>Performing an arithmetic operation (for example, adding two numbers)</li>
+                    <li>Comparing two numbers</li>
+                    <li>Accessing a single element of an array by index</li>
+                    <li>Calling a method</li>
+                    <li>Returning from a method</li>
+                </ul>
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Big_O_notation"><strong>“Big-Oh” Notation</strong></a> is used to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk).<br />
+            Let <i>f(n)</i> and <i>g(n)</i> be functions mapping positive integers to positive real numbers. We say that <strong><i>f(n)</i> is <i>O(g(n))</i></strong> (or <strong><i>f(n)</i> is big-Oh of <i>g(n)</i></strong>) if there is a real constant <i>c > 0</i> and an integer constant <i>n<sub>0</sub> ≥ 1</i> such that:
+            <i>f(n) ≤ cg(n)</i>, for <i>n ≥ n<sub>0</sub></i><br />
+            <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/04_bigO.png" /><br />
+            It is considered poor taste to include constant factors and lower-order terms in the big-Oh notation. The seven functions are the most common.</li>
+            <li><strong>Big-Omega</strong> (Ω) provides an asymptotic way of saying that a function grows at a rate that is “greater than or equal to” (rather tha big-Oh's “less than or equal to”)<br />
+            We say that <i>f(n)</i> is <i>Ω(g(n))</i>, pronounced “<i>f(n)</i> is big-Omega of <i>g(n)</i>,” if <i>g(n)</i> is <i>O(f(n))</i>, that is, there is a real constant <i>c > 0</i> and an integer constant <i>n<sub>0</sub> ≥ 1</i> such that:<br />
+            <i>f(n) ≥ cg(n)</i>, for <i>n ≥ n<sub>0</sub></i></li>
+            <li><strong>Big-Theta</strong> (Θ) allows us to say that two functions grow at the same rate, up to constant factors.<br />
+            <i>f(n)</i> is <i>Θ(g(n))</i>, pronounced “<i>f(n)</i> is big-Theta of <i>g(n)</i>,” if <i>f(n)</i> is <i>O(g(n))</i> and <i>f(n)</i> is <i>Ω(g(n))</i>, that is, there are real constants <i>c′ > 0</i> and <i>c′′ > 0</i>, and an integer constant <i>n<sub>0</sub> ≥ 1</i> such that <i>c′g(n) ≤ f(n) ≤ c′′g(n)</i>, for <i>n ≥ n<sub>0</sub></i></li>
+        </ul>
+        Simple Justification Techniques:<br /><br />
+        <ul>
+            <li>A <a href="https://en.wikipedia.org/wiki/Counterexample"><strong>counterexample</strong></a> is a special kind of example that disproves a statement or proposition. 
+                <ul><li>Example: The proposition "all students are lazy". Because this statement makes the claim that a certain property (laziness) holds for all students, even a single example of a diligent student will prove it false. Thus, any hard-working student is a counterexample to "all students are lazy".</li></ul></li>
+            <li><a href="https://en.wikipedia.org/wiki/Contraposition"><strong>Contraposition</strong></a>  is an inference that says that a conditional statement is logically equivalent to its contrapositive. The contrapositive of the statement has its antecedent and consequent inverted and flipped: the contrapositive of <code>P == Q</code> is thus <code>!P == !Q</code>. 
+                <ul><li>Example: The proposition "All cats are mammals" can be restated as the conditional "If something is a cat, then it is a mammal". Now, the law says that statement is identical to the contrapositive "If something is not a mammal, then it is not a cat."</li></ul></li>
+            <li><a href="https://en.wikipedia.org/wiki/De_Morgan%27s_laws"><strong>De Morgan's laws</strong></a> - justification by contradiction; Regardless of whether applying to sets, propositions, or logic gates, the structure is always the same:
+            <br />Not (A and B) is the same as Not A or Not B.
+            <br />Not (A or B) is the same as Not A and Not B.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Mathematical_induction"><strong>Mathematical induction</strong></a> is a mathematical proof technique. It is essentially used to prove that a property P(n) holds for every natural number n, i.e. for n = 0, 1, 2, 3, and so on. The method of induction requires two cases to be proved. The first case, called the base case (or, sometimes, the basis), proves that the property holds for the number 0. The second case, called the induction step, proves that, if the property holds for one natural number n, then it holds for the next natural number n + 1. These two steps establish the property P(n) for every natural number n = 0, 1, 2, 3, ... The base step need not begin with zero. Often it begins with the number one, and it can begin with any natural number, establishing the truth of the property for all natural numbers greater than or equal to the starting number.</li>
+            <li>A <a href="https://en.wikipedia.org/wiki/Loop_invariant"><strong>loop invarient</strong></a> is a property of a program loop that is true before (and after) each iteration. </li>
+        </ul>
+    </td></tr>
+    <tr><td valign="top">05</td><td valign="top">Recursion</td><td>
+        Examples:<br /><br />
+        <ul>
+            <li>The <a href="https://en.wikipedia.org/wiki/Factorial"><strong>factorial</strong></a> function, <i>n!</i><br />
+            <i>n! = <br />
+            { 1</i> if <i>n = 0</i><br />
+            <i>{ n * (n−1)</i> if <i>n ≥ 1</i><br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_05/Factorial.java">Example code</a><br />
+            Recursion tree: <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/05_factorial.png" /><br />
+            In Java, each time a method (recursive or otherwise) is called, a structure known as an activation record or activation frame is created to store information about the progress of that invocation of the method. This frame stores the parameters and local variables specific to a given call of the method, and information about which command in the body of the method is currently executing.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Fibonacci_number"><strong>Fibonacci numbers</strong></a><br />
+            <i>F0 = 0<br />F1 = 1<br />Fn = Fn−2 +Fn−1</i> for <i>n > 1.</i><br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_05/Fibonacci.java">Example code</a> (good and bad examples)               
+            </li>
+            <li>An English ruler has a recursive pattern that is a simple example of a fractal structure. Below is an example of a 2 inch ruler with major tick length of 3:<br />
+            --- 0<br />-<br />--<br />-<br />--- 1<br />-<br />--<br />-<br />--- 2<br />
+            We denote the length of the tick designating a whole inch as the major tick length. Between the marks for whole inches, the ruler contains a series of minor ticks, placed at intervals of 1/2 inch, 1/4 inch, and so on. As the size of the interval decreases by half, the tick length decreases by one. In general, an interval with a central tick length L ≥ 1 is composed of:
+            <ul><li>An interval with a central tick length L−1</li>
+            <li>A single tick of length L</li>
+            <li>An interval with a central tick length L−1</li></ul>
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_05/Factorial.java">Example code</a><br />
+            Example code recursion trace: <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/05_englishRuler.png" />
+            </li>
+            <li>The <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm"><strong>binary search algorithm</strong></a> is used to efficiently locate a target value within a sorted (indexable) sequence of <i>n</i> elements stored in an array.<br />
+            Complexity: O(log n)<br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_05/BinarySearch.java">Example code</a><br /><br />
+            Note, when the sequence is <u>unsorted</u>, the standard approach to search for a target value is to use a loop to examine every element, until either finding the target or exhausting the data set. This algorithm is known as <u>linear</u> or <u>sequential</u> search, and it runs in O(n) time (i.e., linear time) since every element is inspected in the worst case.<br /><br />    
+            Terms:
+            <ul><li><strong>Candidate</strong>: an element of the sequence which at the current stage of the search, may match the target</li>
+            <li><strong>Low</strong>: candidate element has the index of at least low; Initially set to 0</li>
+            <li><strong>High</strong>: candidate element has the index of at most high; Initially set to <i>n-1</i> or <code>n.length - 1</code></li>
+            <li><strong>Median candidate</strong>: <i>mid = (low + high)/2</i> - Initially set as the median of the array</li></ul>
+            <br />
+            Three cases considered:
+            <ol><li>If the target equals the median candidate, then we have found the item we are looking for, and the search terminates successfully.</li>
+            <li>If the target is less than the median candidate, then we recur on the first half of the sequence, that is, on the interval of indices from <i>low</i> to <i>mid−1</i>.</li>
+            <li>If the target is greater than the median candidate, then we recur on the second half of the sequence, that is, on the interval of indices from <i>mid+1</i> to <i>high</i></li></ol>
+            <br />
+            Binary search example where target value 22 on a sorted array with 16 elements:
+            <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/05_binarySearch.png" />
+            </li>
+            <li>File systems - Recursively inspect a tree structure, in this instance a file system of an arbitrary depth to discover the cumulative disk size.<br />
+            <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_05/FileSystems.java">Example code</a></li>
+        </ul>
+        Types of recursion:<br /><br />
+        <ul>
+            <li>If a recursive call starts at most one other, we call this a <strong>linear recursion</strong> - <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_05/Linear.java">Example code</a></li>
+            <li>If a recursive call may start two others, we call this a <strong>binary recursion</strong> - <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_05/Binary.java">Example code</a></li>
+            <li>If a recursive call may start three or more others, this is <strong>multiple recursion</strong></li>
+        </ul>
+    </td></tr>
+    <tr><td valign="top">06</td><td valign="top">Stacks, Queues, and Deques</td><td>
+    <strong>Stacks</strong>:<br /><br />
+    <ul>
+        <li>A collection of objects that are inserted and removed via <strong>last-in, first-out (LIFO)</strong></li>
+        <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html">Java 8 Stack<E> class API:</a>
+            <ul>
+                <li><code>boolean empty()</code> - Tests if this stack is empty.</li>
+                <li><code>E peek()</code> - Looks at the object at the top of this stack without removing it from the stack.</li>
+                <li><code>E pop()</code> - Removes the object at the top of this stack and returns that object as the value of this function.</li>
+                <li><code>E push(E item)</code> - Pushes an item onto the top of this stack.</li>
+            </ul>
+        </li>
+        <li>Current documentation for the Stack class recommends that it not be used, as LIFO functionality (and more) is provided by a more general data structure known as a <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html">double-ended queue (deque)</a> - <a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html">ArrayDeque documentation</a>: <quote><i>This class is likely to be faster than Stack when used as a stack, and faster than LinkedList when used as a queue.</i></li>
+        <li>Example code:<ul>    
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/Stack.java">Stack interface</a></li>
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/ArrayStack.java">Simple Array-Based Stack</a></li>
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/LinkedStack.java">Stack with a Singly Linked List</a></li>
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/Reverse.java">Reverse array using Stack</a></li>
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/Matcher.java">Matching Delimiters and Tags</a></li>
+        </ul></li>
+    </ul>
+    <strong>Queues</strong> and Double-Ended Queues (<strong>Deques</strong>):<br /><br />
+    <ul>
+        <li>A collection of objects that are inserted and removed via <strong>first-in, first-out (FIFO)</strong></li>
+        <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html">Java 8 Queue interface API</a>
+            <table><tr><th></th><th><i>Throws exception</i></th><th><i>Returns special value</i></th></tr>
+            <tr><td><strong>Insert</strong></td><td><code>add(e)</code></td><td><code>offer(e)</code></td></tr>
+            <tr><td><strong>Remove</strong></td><td><code>remove()</code></td><td><code>poll()</code></td></tr>
+            <tr><td><strong>Examine</strong></td><td><code>element()</code></td><td><code>peek()</code></td></tr></table>
+        </li>
+        <li>Example code:<ul>    
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/Queue.java">Queue interface</a></li>
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/ArrayQueue.java">Array-Based Queue</a></li>
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/LinkedQueue.java">Queue with a Singly Linked List</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Josephus_problem">Josephus problem</a> - <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/Josephus.java">using circular linked list</a></li>
+            <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_06/Deque.java">Deque interface</a></li>
+        </ul></li>
+    </ul></td></tr>
+    <tr><td valign="top">07</td><td valign="top">List and Iterator Abstract Data Types (ADTs)</td><td>
+    The <strong>List</strong> ADT:<br /><br />
+    <ul>
+        <li>Simple ArrayList class with bounded capacity: <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_07/ArrayList.java">Array List</a></li>
+        <li>A dynamically sized ArrayList, utilizing a resize method which doubles the array size once limit reached: <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_07/DynamicArrayList.java">Dynamic Array List</a><br />
+            <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/07_arrayResize.png" /><br />
+            Resize logic: (a) Create new array B; (b) Store elements of A in B; (c) Reassign reference A to the new array
+        </li>
+        <li><strong><a href="https://en.wikipedia.org/wiki/Amortized_analysis">Amortized Analysis</a></strong> of dynamic arrays shows that performing a sequence of push operations on a dynamic array is actually quite efficient as over time the resize method is only called when the array is size of 2, 4, 8, 16 etc. So, every time the resize method is not called, we gain <i>'credit'</i> for the later call.</li>
+        <li>For dyanamic arrays, a <strong><a href="https://en.wikipedia.org/wiki/Arithmetic_progression">arithmetic progression</a></strong> strategy is significantly worse for overall performance.</li>
+        <li>Positional Lists: Indices are not a good abstraction for describing a more local view of a position in a sequence, because the index of an entry changes over time, e.g. a persons position in a queue waiting for tickets. Example code: <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_07/PositionalList.java">Positional List</a></li>
+        <li><a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_07/PositionalListSorter.java">Sorting of a positional list example</a> using a marker to indicate at what (right most) point elements have been sorted, the position after the marker as the pivot, and walk, to move leftward from the marker, as long as there remains a preceding element with value larger than the pivot’s.</li>
+        <li><strong><a href="https://en.wikipedia.org/wiki/Move-to-front_transform">Move-to-Front Heuristic</a></strong> -  In many real-life access sequences (e.g., Web pages visited by a user), once an element is accessed it is more likely to be accessed again in the near future. Such scenarios are said to possess locality of reference. A heuristic, or rule of thumb, that attempts to take advantage of the locality of reference that is present in an access sequence is the move-to-front heuristic. To apply this heuristic, each time we access an element we move it all the way to the front of the list</li>
+    </ul>
+    <strong><a href="https://en.wikipedia.org/wiki/Iterator">Iterators</a></strong>:<br /><br />
+    <ul>
+        <li>A software design pattern that abstracts the process of scanning through a sequence of elements, one element at a time. It plays a fundamental role in support of the “for-each” loop syntax</li>
+        <li>See example code in <a href="https://github.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/blob/master/src/dsa6/chapter_07/ArrayList.java">Array List</a>, inner class <code>ArrayIterator</code></li>
+        <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html">Java 8 docs</a></li>
+    </ul>
+    <strong><a href="https://en.wikipedia.org/wiki/Java_collections_framework">The Java Collections Framework</a></strong><br /><br />
+    <img src="https://raw.githubusercontent.com/rysharprules/Data-Structures-and-Algorithms-in-Java-6th-Edition/master/img/07_javaCollectionsFramework.png" /><br />
+    <ul><li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html">Java 8 Collections (utility class) docs</a></li></ul>
+    </td></tr>
+    <tr><td valign="top">08</td><td valign="top">Trees</td><td>
+    <strong>Trees</strong>:<br /><br />
+    <ul>
+        <li>A <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)" />tree</a> is an abstract data type that stores elements hierarchically with a root value and subtrees of <strong>children</strong> with a <strong>parent</strong> node, represented as a set of linked nodes.</li>
+        <li>Two nodes that are children of the same parent are <strong>siblings</strong>. A node <i>v</i> is <strong>external</strong> if v has no children. A node <i>v</i> is <strong>internal</strong> if it has one or more children. External nodes are also known as <strong>leaves</strong>.</li>
+        <li>A node <i>u</i> <strong>subtree</strong> of <i>T</i> <strong>rooted</strong> at a node <i>v</i> is the tree consisting of all the descendants of <i>v</i> in <i>T</i> (including <i>v</i> itself)</li>
+        <li>An <strong>edge</strong> of tree <i>T</i> is a pair of nodes (<i>u</i>,<i>v</i>) such that <i>u</i> is the parent of <i>v</i>, or vice versa. A <strong>path</strong> of <i>T</i> is a sequence of nodes such that any two consecutive nodes in the sequence form an edge.</li>
+    </ul>
+    The <strong>Tree Abstract Data Type</strong>:<br /><br />
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    </td></tr>
+</tbody>
+</table>
