@@ -1,7 +1,7 @@
 # <a href="https://www.amazon.com/Data-Structures-Algorithms-Java-6th-ebook/dp/B00JDRQF8C">Data Structures and Algorithms in Java, 6th Edition</a>
 Code extracts and notes from the book by Michael T. Goodrich, Roberto Tamassia and Michael H. Goldwasser
 
-<img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/cover.jpg" />
+<img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/cover.jpg" />
 
 ## Book Description
 ISBN: 978-1-118-80857-3<br />
@@ -33,7 +33,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
                         <li><a href="http://bigocheatsheet.com/">Complexity:</a> O(n^2)</li>
                         <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/blob/main/DataStrucAndAlg/blob/master/src/dsa6/chapter_03/InsertionSort.java">Insertion Sort example</a></li>
                     </ul>
-                    <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/03_insertionSort.png" height="500" />
+                    <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/03_insertionSort.png" height="500" />
                 </li>
                 <li>Simple cryptography with <code>char</code> arrays: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/blob/main/DataStrucAndAlg/blob/master/src/dsa6/chapter_03/CaesarCipher.java">Caesar Cipher</a> - <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Wikipedia explanation of the Caesar cipher</a></li>
                 <li>Two dimensional arrays: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/blob/main/DataStrucAndAlg/blob/master/src/dsa6/chapter_03/TicTacToe.java">Tic Tac Toe</a></li>
@@ -49,10 +49,10 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
     <tr><td valign="top">04</td><td valign="top">Algorithm Analysis</td>
     <td>
         Functions:<br />
-        <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/04_functions.png" /><br />
-        <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/04_comparingGrowthRates.png" /><br />
+        <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/04_functions.png" /><br />
+        <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/04_comparingGrowthRates.png" /><br />
         Seven functions commonly used in the analysis of algorithms. Note, <i>logn = log<sub>2</sub>n</i>. Also, we denote with a <i>a</i> constant greater than 1.<br /><br />
-        <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/04_functionRunningTimes.png" /><br />
+        <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/04_functionRunningTimes.png" /><br />
         Example growth rates to show order of asymptotically betters algorithms.<br /><br />
         <ul>
             <li>A <a href="https://en.wikipedia.org/wiki/Constant_function"><strong>constant function</strong></a> is a function whose (output) value is the same for every input value.<br />
@@ -116,7 +116,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <li><a href="https://en.wikipedia.org/wiki/Big_O_notation"><strong>“Big-Oh” Notation</strong></a> is used to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk).<br />
             Let <i>f(n)</i> and <i>g(n)</i> be functions mapping positive integers to positive real numbers. We say that <strong><i>f(n)</i> is <i>O(g(n))</i></strong> (or <strong><i>f(n)</i> is big-Oh of <i>g(n)</i></strong>) if there is a real constant <i>c > 0</i> and an integer constant <i>n<sub>0</sub> ≥ 1</i> such that:
             <i>f(n) ≤ cg(n)</i>, for <i>n ≥ n<sub>0</sub></i><br />
-            <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/04_bigO.png" /><br />
+            <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/04_bigO.png" /><br />
             It is considered poor taste to include constant factors and lower-order terms in the big-Oh notation. The seven functions are the most common.</li>
             <li><strong>Big-Omega</strong> (Ω) provides an asymptotic way of saying that a function grows at a rate that is “greater than or equal to” (rather tha big-Oh's “less than or equal to”)<br />
             We say that <i>f(n)</i> is <i>Ω(g(n))</i>, pronounced “<i>f(n)</i> is big-Omega of <i>g(n)</i>,” if <i>g(n)</i> is <i>O(f(n))</i>, that is, there is a real constant <i>c > 0</i> and an integer constant <i>n<sub>0</sub> ≥ 1</i> such that:<br />
@@ -145,7 +145,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             { 1</i> if <i>n = 0</i><br />
             <i>{ n * (n−1)</i> if <i>n ≥ 1</i><br />
             <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/blob/main/DataStrucAndAlg/blob/master/src/dsa6/chapter_05/Factorial.java">Example code</a><br />
-            Recursion tree: <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/05_factorial.png" /><br />
+            Recursion tree: <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/05_factorial.png" /><br />
             In Java, each time a method (recursive or otherwise) is called, a structure known as an activation record or activation frame is created to store information about the progress of that invocation of the method. This frame stores the parameters and local variables specific to a given call of the method, and information about which command in the body of the method is currently executing.</li>
             <li><a href="https://en.wikipedia.org/wiki/Fibonacci_number"><strong>Fibonacci numbers</strong></a><br />
             <i>F0 = 0<br />F1 = 1<br />Fn = Fn−2 +Fn−1</i> for <i>n > 1.</i><br />
@@ -158,7 +158,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <li>A single tick of length L</li>
             <li>An interval with a central tick length L−1</li></ul>
             <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/blob/main/DataStrucAndAlg/blob/master/src/dsa6/chapter_05/Factorial.java">Example code</a><br />
-            Example code recursion trace: <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/05_englishRuler.png" />
+            Example code recursion trace: <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/05_englishRuler.png" />
             </li>
             <li>The <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm"><strong>binary search algorithm</strong></a> is used to efficiently locate a target value within a sorted (indexable) sequence of <i>n</i> elements stored in an array.<br />
             Complexity: O(log n)<br />
@@ -176,7 +176,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <li>If the target is greater than the median candidate, then we recur on the second half of the sequence, that is, on the interval of indices from <i>mid+1</i> to <i>high</i></li></ol>
             <br />
             Binary search example where target value 22 on a sorted array with 16 elements:
-            <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/05_binarySearch.png" />
+            <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/05_binarySearch.png" />
             </li>
             <li>File systems - Recursively inspect a tree structure, in this instance a file system of an arbitrary depth to discover the cumulative disk size.<br />
             <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/blob/main/DataStrucAndAlg/blob/master/src/dsa6/chapter_05/FileSystems.java">Example code</a></li>
@@ -231,7 +231,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
     <ul>
         <li>Simple ArrayList class with bounded capacity: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/blob/main/DataStrucAndAlg/blob/master/src/dsa6/chapter_07/ArrayList.java">Array List</a></li>
         <li>A dynamically sized ArrayList, utilizing a resize method which doubles the array size once limit reached: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/blob/main/DataStrucAndAlg/blob/master/src/dsa6/chapter_07/DynamicArrayList.java">Dynamic Array List</a><br />
-            <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/07_arrayResize.png" /><br />
+            <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/07_arrayResize.png" /><br />
             Resize logic: (a) Create new array B; (b) Store elements of A in B; (c) Reassign reference A to the new array
         </li>
         <li><strong><a href="https://en.wikipedia.org/wiki/Amortized_analysis">Amortized Analysis</a></strong> of dynamic arrays shows that performing a sequence of push operations on a dynamic array is actually quite efficient as over time the resize method is only called when the array is size of 2, 4, 8, 16 etc. So, every time the resize method is not called, we gain <i>'credit'</i> for the later call.</li>
@@ -247,7 +247,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
         <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html">Java 8 docs</a></li>
     </ul>
     <strong><a href="https://en.wikipedia.org/wiki/Java_collections_framework">The Java Collections Framework</a></strong><br /><br />
-    <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/img/07_javaCollectionsFramework.png" /><br />
+    <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/07_javaCollectionsFramework.png" /><br />
     <ul><li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html">Java 8 Collections (utility class) docs</a></li></ul>
     </td></tr>
     <tr><td valign="top">08</td><td valign="top">Trees</td><td>
