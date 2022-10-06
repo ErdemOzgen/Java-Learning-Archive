@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch31/AddressBook/AddressBook.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch31/AddressBook/AddressBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch29/AddressBook/AddressBook1.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch29/AddressBook/AddressBook1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/Blackjack/Blackjack.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/Blackjack/Blackjack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/BlackjackGame/BlackjackGame.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/BlackjackGame/BlackjackGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch29/BooksDatabaseExamples/BooksDatabaseExamples.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch29/BooksDatabaseExamples/BooksDatabaseExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorJSON/EquationGeneratorJSON.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorJSON/EquationGeneratorJSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorJSONClient/EquationGeneratorJSONClient.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorJSONClient/EquationGeneratorJSONClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorXML/src/EquationGeneratorXML.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorXML/src/EquationGeneratorXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorXMLClient/EquationGeneratorXMLClient.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorXMLClient/EquationGeneratorXMLClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Learning-Archive.iml" filepath="$PROJECT_DIR$/Java-Learning-Archive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/JavaHowtoProg.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/JavaHowtoProg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/Reservation/Reservation.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/Reservation/Reservation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/ReservationClient/src/ReservationClient.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/ReservationClient/src/ReservationClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch30/SessionTracking/SessionTracking.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch30/SessionTracking/SessionTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch31/Validation/Validation.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch31/Validation/Validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch30/Validation/Validation1.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch30/Validation/Validation1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch30/WebTime/WebTime.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch30/WebTime/WebTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeRESTJSON/WelcomeRESTJSON.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeRESTJSON/WelcomeRESTJSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeRESTJSONClient/WelcomeRESTJSONClient.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeRESTJSONClient/WelcomeRESTJSONClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeRESTXML/WelcomeRESTXML.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeRESTXML/WelcomeRESTXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeRESTXMLClient/WelcomeRESTXMLClient.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeRESTXMLClient/WelcomeRESTXMLClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeSOAP/WelcomeSOAP.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeSOAP/WelcomeSOAP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeSOAPClient/WelcomeSOAPClient.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeSOAPClient/WelcomeSOAPClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/appK/appK.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/appK/appK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/appL/appL.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/appL/appL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorXML/build/build.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/EquationGeneratorXML/build/build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch01/ch01.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch01/ch01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch02/ch02.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch02/ch02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch03/ch03.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch03/ch03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch04/ch04.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch04/ch04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch05/ch05.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch05/ch05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch06/ch06.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch06/ch06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch07/ch07.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch07/ch07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch08/ch08.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch08/ch08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch09/ch09.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch09/ch09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch10/ch10.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch10/ch10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch11/ch11.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch11/ch11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch12/ch12.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch12/ch12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch14/ch14.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch14/ch14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch15/ch15.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch15/ch15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch16/ch16.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch16/ch16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch17/ch17.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch17/ch17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch18/ch18.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch18/ch18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch19/ch19.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch19/ch19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch20/ch20.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch20/ch20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch21/ch21.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch21/ch21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch22/ch22.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch22/ch22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch23/ch23.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch23/ch23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch24/ch24.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch24/ch24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch26/ch26.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch26/ch26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch27/ch27.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch27/ch27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch28/ch28.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch28/ch28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/MathTutor/src/com.deitel.additionprovider/com.deitel.additionprovider.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/MathTutor/src/com.deitel.additionprovider/com.deitel.additionprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/MathTutor/src/com.deitel.mathtutor/com.deitel.mathtutor.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/MathTutor/src/com.deitel.mathtutor/com.deitel.mathtutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/MathTutor/src/com.deitel.multiplicationprovider/com.deitel.multiplicationprovider.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/MathTutor/src/com.deitel.multiplicationprovider/com.deitel.multiplicationprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/ExamplesShowingErrors/TimeAppMissingExports/src/com.deitel.timelibrary/com.deitel.timelibrary.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/ExamplesShowingErrors/TimeAppMissingExports/src/com.deitel.timelibrary/com.deitel.timelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/ExamplesShowingErrors/TimeAppMissingExports/src/com.deitel.timetest/com.deitel.timetest.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/ExamplesShowingErrors/TimeAppMissingExports/src/com.deitel.timetest/com.deitel.timetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/VideoPlayer/src/com.deitel.videoplayer/com.deitel.videoplayer.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/VideoPlayer/src/com.deitel.videoplayer/com.deitel.videoplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/WelcomeApp/src/com.deitel.welcome/com.deitel.welcome.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/WelcomeApp/src/com.deitel.welcome/com.deitel.welcome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeSOAPClient/build/generated/generated.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeSOAPClient/build/generated/generated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/BlackjackGame/build/generated-sources/generated-sources.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/BlackjackGame/build/generated-sources/generated-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/ReservationClient/build/generated-sources/generated-sources1.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/ReservationClient/build/generated-sources/generated-sources1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeSOAPClient/build/generated-sources/generated-sources2.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/WelcomeSOAPClient/build/generated-sources/generated-sources2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/ReservationClient/build/generated/generated1.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/ReservationClient/build/generated/generated1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch32/BlackjackGame/build/generated/generated2.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch32/BlackjackGame/build/generated/generated2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/ExamplesShowingErrors/CircularDependency/src/module1/module1.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/ExamplesShowingErrors/CircularDependency/src/module1/module1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHowtoProg/ch36/ExamplesShowingErrors/CircularDependency/src/module2/module2.iml" filepath="$PROJECT_DIR$/JavaHowtoProg/ch36/ExamplesShowingErrors/CircularDependency/src/module2/module2.iml" />
+    </modules>
+  </component>
+</project>

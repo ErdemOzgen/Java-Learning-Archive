@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/TipCalculator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercises" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_09" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_13-21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig17_24" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fig26_21_22_lambda" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
