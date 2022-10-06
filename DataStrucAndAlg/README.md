@@ -26,23 +26,23 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
         <td>
         Using Arrays:<br /><br />
             <ul>
-                <li>Storing game entries in an array: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/GameEntry.java">Game Entry</a> and <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/Scoreboard.java">Scoreboard</a></li>
-                <li>Sorting an array using <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-java.lang.Object:A-"><code>Arrays.sort</code></a>: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/ArraysSort.java">Arrays Sort</a></li>
+                <li>Storing game entries in an array: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/GameEntry.java">Game Entry</a> and <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/Scoreboard.java">Scoreboard</a></li>
+                <li>Sorting an array using <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-java.lang.Object:A-"><code>Arrays.sort</code></a>: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/ArraysSort.java">Arrays Sort</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Insertion_sort"><strong>Insertion sort algorithm</strong></a>:
                     <ul>
                         <li><a href="http://bigocheatsheet.com/">Complexity:</a> O(n^2)</li>
-                        <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/InsertionSort.java">Insertion Sort example</a></li>
+                        <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/InsertionSort.java">Insertion Sort example</a></li>
                     </ul>
                     <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/03_insertionSort.png" height="500" />
                 </li>
-                <li>Simple cryptography with <code>char</code> arrays: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/CaesarCipher.java">Caesar Cipher</a> - <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Wikipedia explanation of the Caesar cipher</a></li>
-                <li>Two dimensional arrays: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/TicTacToe.java">Tic Tac Toe</a></li>
+                <li>Simple cryptography with <code>char</code> arrays: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/CaesarCipher.java">Caesar Cipher</a> - <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Wikipedia explanation of the Caesar cipher</a></li>
+                <li>Two dimensional arrays: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/TicTacToe.java">Tic Tac Toe</a></li>
             </ul>
         Linked Lists:<br /><br />
             <ul>
-                <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/SinglyLinkedList.java">Singly Linked List</a> including example of implementing the <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Cloneable.html"><code>Cloneable</code></a> interface and a clone method</li>
-                <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/CircularlyLinkedList.java">Circularly Linked List</a></li>
-                <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_03/DoublyLinkedList.java">Doubly Linked List</a></li>
+                <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/SinglyLinkedList.java">Singly Linked List</a> including example of implementing the <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Cloneable.html"><code>Cloneable</code></a> interface and a clone method</li>
+                <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/CircularlyLinkedList.java">Circularly Linked List</a></li>
+                <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_03/DoublyLinkedList.java">Doubly Linked List</a></li>
             </ul>
         </td>
     </tr>
@@ -57,21 +57,21 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
         <ul>
             <li>A <a href="https://en.wikipedia.org/wiki/Constant_function"><strong>constant function</strong></a> is a function whose (output) value is the same for every input value.<br />
             <i>f(n) = c</i><br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_04/Constant.java">Example code</a></li>
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_04/Constant.java">Example code</a></li>
             <li>The <a href="https://en.wikipedia.org/wiki/Logarithm"><strong>logarithm function</strong></a> is the inverse function to exponentiation (power).<br />
             <i>x = log<sub>b</sub>n</i> if and only if <i>b<sup>x</sup> = n</i>.<br />
             The value <i>b</i> is known as the base of the logarithm. The most common base for the logarithm function in computer science is 2 as computers store integers in binary. In fact, this base is so common that we will typically omit it from the notation when it is 2:<br />
             <i>log<sub>n</sub> = log<sub>2</sub>n</i><br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_04/Logarithmic.java">Example code</a></li>
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_04/Logarithmic.java">Example code</a></li>
             <li>The <a href="https://en.wikipedia.org/wiki/Linear_function"><strong>linear function</strong></a>:<br />
             <i>f(n) = n</i><br />
             Given an input value <i>n</i>, the linear function <i>f</i> assigns the value <i>n</i> itself. <br />
             This function arises in algorithm analysis any time we have to do a single basic operation for each of <i>n</i> elements. For example, comparing a number <i>x</i> to each element of an array of size <i>n</i> will require <i>n</i> comparisons. The linear function also represents the best running time we can hope to achieve for any algorithm that processes each of <i>n</i> objects that are not already in the computer’s memory, because reading in the <i>n</i> objects already requires <i>n</i> operations.<br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_04/Linear.java">Example code</a></li>
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_04/Linear.java">Example code</a></li>
             <li>The <strong>N-Log-N function</strong><br />
             <i>f(n) = nlogn</i><br />
             Assigns to an input <i>n</i> the value of <i>n</i> times the logarithm base-two of <i>n</i>. This function grows a little more rapidly than the linear function and a lot less rapidly than the quadratic function; therefore, we would greatly prefer an algorithm with a running time that is proportional to <i>nlogn</i>, than one with quadratic running time.<br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_04/NLogN.java">Example code</a></li>
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_04/NLogN.java">Example code</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Quadratic_function"><strong>Quadratic function</strong></a><br />
             <i>f(n) = n<sup>2</sup></i><br />
             Given an input value <i>n</i>, the function <i>f</i> assigns the product of <i>n</i> with itself (i.e., n squared).<br />
@@ -84,7 +84,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <li>The linear, quadratic and cubic functions can each be viewed as being part of a larger class of functions, the <a href="https://en.wikipedia.org/wiki/Polynomial"><strong>polynomials</strong></a>.  A polynomial function has the form:<br />
             <i>f(n) = a<sub>0</sub> + a<sub>1</sub>n + a<sub>2</sub>n<sup>2</sup> + a<sub>3</sub>n<sup>3</sup> +···+ a<sub>d</sub>n<sup>d</sup></i><br />
             where <i>a<sub>0</sub>,a<sub>1</sub>,...,a<sub>d</sub></i> are constants, called the <a href="https://en.wikipedia.org/wiki/Coefficient"><strong>coefficients</strong></a> of the polynomial, and <i>a<sub>d</sub> ≠ 0</i>. Integer <i>d</i>, which indicates the highest power in the polynomial, is called the <a href="https://en.wikipedia.org/wiki/Degree_of_a_polynomial"><strong>degree</strong></a> of the polynomial.<br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_04/Polynomial.java">Example code</a></li>
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_04/Polynomial.java">Example code</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Summation"><strong>Summations</strong></a> (denoted with an enlarged capital Greek sigma symbol) gives us a shorthand way of expressing sums of increasing terms that have a regular structure<br />
             Examples: For a sequence of consecutive integers:<br />
             <i>b∑i=a f(i) = f(a) + f(a+1) + f(a+2) +···+ f(b)</i><br />
@@ -96,7 +96,7 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <li>The <a href="https://en.wikipedia.org/wiki/Exponential_function"><strong>Exponential function</strong></a><br />
             <i>f(n) = b<sup>n</sup></i><br />
             where <i>b</i> is a positive constant, called the base, and the argument <i>n</i> is the exponent. That is, function <i>f(n)</i> assigns to the input argument <i>n</i> the value obtained by multiplying the base <i>b</i> by itself <i>n</i> times.<br /> 
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_04/Exponential.java">Example code</a></li>
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_04/Exponential.java">Example code</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Geometric_series"><strong>Geometric series</strong></a> is a series with a constant ratio between successive terms. E.g.: <i>1/2 + 1/4 + 1/8 + 1/16 + ...</i> is geometric, because each successive term can be obtained by multiplying the previous term by 1/2.</li>
         </ul>
         <a href="https://en.wikipedia.org/wiki/Asymptotic_analysis">Asymptotic Analysis</a>:<br /><br />
@@ -144,12 +144,12 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <i>n! = <br />
             { 1</i> if <i>n = 0</i><br />
             <i>{ n * (n−1)</i> if <i>n ≥ 1</i><br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_05/Factorial.java">Example code</a><br />
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_05/Factorial.java">Example code</a><br />
             Recursion tree: <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/05_factorial.png" /><br />
             In Java, each time a method (recursive or otherwise) is called, a structure known as an activation record or activation frame is created to store information about the progress of that invocation of the method. This frame stores the parameters and local variables specific to a given call of the method, and information about which command in the body of the method is currently executing.</li>
             <li><a href="https://en.wikipedia.org/wiki/Fibonacci_number"><strong>Fibonacci numbers</strong></a><br />
             <i>F0 = 0<br />F1 = 1<br />Fn = Fn−2 +Fn−1</i> for <i>n > 1.</i><br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_05/Fibonacci.java">Example code</a> (good and bad examples)               
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_05/Fibonacci.java">Example code</a> (good and bad examples)               
             </li>
             <li>An English ruler has a recursive pattern that is a simple example of a fractal structure. Below is an example of a 2 inch ruler with major tick length of 3:<br />
             --- 0<br />-<br />--<br />-<br />--- 1<br />-<br />--<br />-<br />--- 2<br />
@@ -157,12 +157,12 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <ul><li>An interval with a central tick length L−1</li>
             <li>A single tick of length L</li>
             <li>An interval with a central tick length L−1</li></ul>
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_05/Factorial.java">Example code</a><br />
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_05/Factorial.java">Example code</a><br />
             Example code recursion trace: <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/05_englishRuler.png" />
             </li>
             <li>The <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm"><strong>binary search algorithm</strong></a> is used to efficiently locate a target value within a sorted (indexable) sequence of <i>n</i> elements stored in an array.<br />
             Complexity: O(log n)<br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_05/BinarySearch.java">Example code</a><br /><br />
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_05/BinarySearch.java">Example code</a><br /><br />
             Note, when the sequence is <u>unsorted</u>, the standard approach to search for a target value is to use a loop to examine every element, until either finding the target or exhausting the data set. This algorithm is known as <u>linear</u> or <u>sequential</u> search, and it runs in O(n) time (i.e., linear time) since every element is inspected in the worst case.<br /><br />    
             Terms:
             <ul><li><strong>Candidate</strong>: an element of the sequence which at the current stage of the search, may match the target</li>
@@ -179,12 +179,12 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/05_binarySearch.png" />
             </li>
             <li>File systems - Recursively inspect a tree structure, in this instance a file system of an arbitrary depth to discover the cumulative disk size.<br />
-            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_05/FileSystems.java">Example code</a></li>
+            <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_05/FileSystems.java">Example code</a></li>
         </ul>
         Types of recursion:<br /><br />
         <ul>
-            <li>If a recursive call starts at most one other, we call this a <strong>linear recursion</strong> - <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_05/Linear.java">Example code</a></li>
-            <li>If a recursive call may start two others, we call this a <strong>binary recursion</strong> - <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_05/Binary.java">Example code</a></li>
+            <li>If a recursive call starts at most one other, we call this a <strong>linear recursion</strong> - <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_05/Linear.java">Example code</a></li>
+            <li>If a recursive call may start two others, we call this a <strong>binary recursion</strong> - <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_05/Binary.java">Example code</a></li>
             <li>If a recursive call may start three or more others, this is <strong>multiple recursion</strong></li>
         </ul>
     </td></tr>
@@ -202,11 +202,11 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
         </li>
         <li>Current documentation for the Stack class recommends that it not be used, as LIFO functionality (and more) is provided by a more general data structure known as a <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html">double-ended queue (deque)</a> - <a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html">ArrayDeque documentation</a>: <quote><i>This class is likely to be faster than Stack when used as a stack, and faster than LinkedList when used as a queue.</i></li>
         <li>Example code:<ul>    
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/Stack.java">Stack interface</a></li>
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/ArrayStack.java">Simple Array-Based Stack</a></li>
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/LinkedStack.java">Stack with a Singly Linked List</a></li>
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/Reverse.java">Reverse array using Stack</a></li>
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/Matcher.java">Matching Delimiters and Tags</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/Stack.java">Stack interface</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/ArrayStack.java">Simple Array-Based Stack</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/LinkedStack.java">Stack with a Singly Linked List</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/Reverse.java">Reverse array using Stack</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/Matcher.java">Matching Delimiters and Tags</a></li>
         </ul></li>
     </ul>
     <strong>Queues</strong> and Double-Ended Queues (<strong>Deques</strong>):<br /><br />
@@ -219,31 +219,31 @@ Language introductory chapters 01 (Java Primer) and 02 (Object Oriented Design) 
             <tr><td><strong>Examine</strong></td><td><code>element()</code></td><td><code>peek()</code></td></tr></table>
         </li>
         <li>Example code:<ul>    
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/Queue.java">Queue interface</a></li>
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/ArrayQueue.java">Array-Based Queue</a></li>
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/LinkedQueue.java">Queue with a Singly Linked List</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Josephus_problem">Josephus problem</a> - <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/Josephus.java">using circular linked list</a></li>
-            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_06/Deque.java">Deque interface</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/Queue.java">Queue interface</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/ArrayQueue.java">Array-Based Queue</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/LinkedQueue.java">Queue with a Singly Linked List</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Josephus_problem">Josephus problem</a> - <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/Josephus.java">using circular linked list</a></li>
+            <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_06/Deque.java">Deque interface</a></li>
         </ul></li>
     </ul></td></tr>
     <tr><td valign="top">07</td><td valign="top">List and Iterator Abstract Data Types (ADTs)</td><td>
     The <strong>List</strong> ADT:<br /><br />
     <ul>
-        <li>Simple ArrayList class with bounded capacity: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_07/ArrayList.java">Array List</a></li>
-        <li>A dynamically sized ArrayList, utilizing a resize method which doubles the array size once limit reached: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_07/DynamicArrayList.java">Dynamic Array List</a><br />
+        <li>Simple ArrayList class with bounded capacity: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_07/ArrayList.java">Array List</a></li>
+        <li>A dynamically sized ArrayList, utilizing a resize method which doubles the array size once limit reached: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_07/DynamicArrayList.java">Dynamic Array List</a><br />
             <img src="https://raw.githubusercontent.com/ErdemOzgen/Java-Learning-Archive/main/DataStrucAndAlg/img/07_arrayResize.png" /><br />
             Resize logic: (a) Create new array B; (b) Store elements of A in B; (c) Reassign reference A to the new array
         </li>
         <li><strong><a href="https://en.wikipedia.org/wiki/Amortized_analysis">Amortized Analysis</a></strong> of dynamic arrays shows that performing a sequence of push operations on a dynamic array is actually quite efficient as over time the resize method is only called when the array is size of 2, 4, 8, 16 etc. So, every time the resize method is not called, we gain <i>'credit'</i> for the later call.</li>
         <li>For dyanamic arrays, a <strong><a href="https://en.wikipedia.org/wiki/Arithmetic_progression">arithmetic progression</a></strong> strategy is significantly worse for overall performance.</li>
-        <li>Positional Lists: Indices are not a good abstraction for describing a more local view of a position in a sequence, because the index of an entry changes over time, e.g. a persons position in a queue waiting for tickets. Example code: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_07/PositionalList.java">Positional List</a></li>
-        <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_07/PositionalListSorter.java">Sorting of a positional list example</a> using a marker to indicate at what (right most) point elements have been sorted, the position after the marker as the pivot, and walk, to move leftward from the marker, as long as there remains a preceding element with value larger than the pivot’s.</li>
+        <li>Positional Lists: Indices are not a good abstraction for describing a more local view of a position in a sequence, because the index of an entry changes over time, e.g. a persons position in a queue waiting for tickets. Example code: <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_07/PositionalList.java">Positional List</a></li>
+        <li><a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_07/PositionalListSorter.java">Sorting of a positional list example</a> using a marker to indicate at what (right most) point elements have been sorted, the position after the marker as the pivot, and walk, to move leftward from the marker, as long as there remains a preceding element with value larger than the pivot’s.</li>
         <li><strong><a href="https://en.wikipedia.org/wiki/Move-to-front_transform">Move-to-Front Heuristic</a></strong> -  In many real-life access sequences (e.g., Web pages visited by a user), once an element is accessed it is more likely to be accessed again in the near future. Such scenarios are said to possess locality of reference. A heuristic, or rule of thumb, that attempts to take advantage of the locality of reference that is present in an access sequence is the move-to-front heuristic. To apply this heuristic, each time we access an element we move it all the way to the front of the list</li>
     </ul>
     <strong><a href="https://en.wikipedia.org/wiki/Iterator">Iterators</a></strong>:<br /><br />
     <ul>
         <li>A software design pattern that abstracts the process of scanning through a sequence of elements, one element at a time. It plays a fundamental role in support of the “for-each” loop syntax</li>
-        <li>See example code in <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6chapter_07/ArrayList.java">Array List</a>, inner class <code>ArrayIterator</code></li>
+        <li>See example code in <a href="https://github.com/ErdemOzgen/Java-Learning-Archive/tree/main/DataStrucAndAlg/src/dsa6/chapter_07/ArrayList.java">Array List</a>, inner class <code>ArrayIterator</code></li>
         <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html">Java 8 docs</a></li>
     </ul>
     <strong><a href="https://en.wikipedia.org/wiki/Java_collections_framework">The Java Collections Framework</a></strong><br /><br />
